@@ -56,7 +56,7 @@ jobs:
 
    generateCatImagesPretrainedModel:
      resources:
-       instance-type: A4000
+       instance-type: P4000
      needs:
        - cloneStyleGAN2Repo
        - getPretrainedModelCats
@@ -108,7 +108,7 @@ jobs:
 
    generateCarImagesPretrainedModel:
      resources:
-       instance-type: A4000
+       instance-type: P4000
      needs:
        - cloneStyleGAN2Repo
        - getPretrainedModelCars
